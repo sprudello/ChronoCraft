@@ -22,8 +22,11 @@ nav {
 }
 
 nav a {
+    color: var(--textcolor);
+    text-decoration: none;
     padding: 15px;
     border-radius: 10px;
+
 }
 
 nav a:hover {
@@ -38,4 +41,18 @@ header {
     display: flex;
     justify-content: center;
     margin-top: -50px;
+}
+
+h2 {
+    color: var(--details);
+    margin: 10px;
+}
+
+h3 {
+    color: var(--details);
+    margin: 10px;
+}
+
+h4 {
+    margin: 5px;
 }
