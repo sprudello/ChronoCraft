@@ -1,11 +1,41 @@
 :root {
     --bgcolor: #111;
     --textcolor: #ddd;
-
+    --details: #d2a213;
 }
 
 html {
     background-color: var(--bgcolor);
     font-family: 'Ubuntu Mono', monospace;
     color: var(--textcolor);
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: var(--bgcolor);
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+nav a {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: var(--details);
+    font-size: 27px;
+    padding: 12px;
+    transition: all 0.3s ease;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
 }
