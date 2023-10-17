@@ -1,0 +1,11 @@
+:root {
+    --bgcolor: #111;
+    --textcolor: #ddd;
+
+}
+
+html {
+    background-color: var(--bgcolor);
+    font-family: 'Ubuntu Mono', monospace;
+    color: var(--textcolor);
+}
