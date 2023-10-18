@@ -19,6 +19,7 @@ nav {
     border-radius: 10px;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: -40px;
 }
 
 nav a {
@@ -55,4 +56,41 @@ h3 {
 
 h4 {
     margin: 5px;
+}
+
+.checkboxDiv {
+    margin: 20px;
+}
+
+label:hover {
+    background-color: var(--details);
+    font-size: 27px;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+
+label {
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input {
+    display: none;
+
+}
+
+#gj12,
+#gj11 {
+    display: none;
+}
+
+#cb12:checked~#gj12,
+#cb11:checked~#gj11 {
+    display: block;
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
 }
