@@ -27,6 +27,7 @@ nav a {
     text-decoration: none;
     padding: 15px;
     border-radius: 10px;
+    text-align: center;
 
 }
 
@@ -42,6 +43,11 @@ header {
     display: flex;
     justify-content: center;
     margin-top: -50px;
+}
+
+h1 {
+    color: var(--details);
+
 }
 
 h2 {
@@ -93,4 +99,26 @@ input {
 section {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#organigramm {
+    width: 100%;
+}
+
+#prodImageCCC {
+    width: 35%;
+}
+
+main div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.investorimage {
+    width: 75%;
 }
