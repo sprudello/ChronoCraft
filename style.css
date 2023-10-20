@@ -22,6 +22,29 @@ nav {
     margin-top: -40px;
 }
 
+@media screen and (max-width: 768px) {
+
+    /* Change the display property to stack links vertically for phones */
+    nav {
+        display: block;
+
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        size: 18px;
+    }
+
+    header {
+        margin-top: 50px;
+    }
+
+    header img {
+        width: 100%;
+    }
+}
+
 nav a {
     color: var(--textcolor);
     text-decoration: none;
@@ -43,6 +66,12 @@ header {
     display: flex;
     justify-content: center;
     margin-top: -50px;
+
+}
+
+header img {
+    width: 50%;
+    text-align: center;
 }
 
 h1 {
@@ -86,11 +115,17 @@ input {
 
 }
 
+#gj15,
+#gj14,
+#gj13,
 #gj12,
 #gj11 {
     display: none;
 }
 
+#cb15:checked~#gj15,
+#cb14:checked~#gj14,
+#cb13:checked~#gj13,
 #cb12:checked~#gj12,
 #cb11:checked~#gj11 {
     display: block;
