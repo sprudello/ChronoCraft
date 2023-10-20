@@ -22,7 +22,7 @@ nav {
     margin-top: -40px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 801px) {
 
     /* Change the display property to stack links vertically for phones */
     nav {
@@ -38,10 +38,12 @@ nav {
 
     header {
         margin-top: 50px;
+        padding-top: 50px;
+        width: 100%;
     }
 
     header img {
-        width: 100%;
+        width: 300px;
     }
 }
 
@@ -156,4 +158,8 @@ main div {
 
 .investorimage {
     width: 75%;
+}
+
+video {
+    width: 100%;
 }
